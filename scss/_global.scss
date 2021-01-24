@@ -1,0 +1,44 @@
+
+html {
+    font-size: 100%;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 14px;
+}
+//flex
+.flex {
+    display: flex;
+    &-jc-sb {
+        justify-content: space-between;
+    }
+    &-jc-c {
+        justify-content: center;
+    }
+    &-ai-c {
+        align-items: center;
+    }
+    &-ai-s-c {
+        align-self: center;
+    }
+}
+
+// Content font
+h1,h2,h3,h4,h5,h6 {
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 2rem;
+}
+
+p, a {
+    font-family: 'Josefin Sans', serif;
+}
+
+
